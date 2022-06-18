@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id="hscore">0</h2>
+                <span>
+                    <button onclick="plus1h()">+1</button>
+                    <button onclick="plus2h()">+2</button>
+                    <button onclick="plus3h()">+3</button>
+                </span>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 class="score" id="gscore">0</h2>
+                <span>
+                    <button onclick="plus1g()">+1</button>
+                    <button onclick="plus2g()">+2</button>
+                    <button onclick="plus3g()">+3</button>
+                </span>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

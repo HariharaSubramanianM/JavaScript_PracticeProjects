@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    background: #0a0001;
+    font-size: 90px;
+    color: #ed3e5e;
+    width: 120px;
+    margin: 20px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+}
+
+.button{
+    background: none;
+}
