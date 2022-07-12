@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+}
+
+#main{
+    color: white;
+    background: rgb(118, 62, 231);
+    padding: 10px;
+}
+
+#input-el{
+    background-color: rgb(118, 62, 231);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#convertbtn{
+    font-size: 15px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+
+.section{
+    color: azure;
+    font-size: 20px;
+    background-color:  #1F2937;
+    border: 5px solid rgb(193, 171, 239);
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
